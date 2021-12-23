@@ -1,0 +1,146 @@
+{
+  "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-8ca1310b-8ec3",
+  "name": "Microsoft.Web-WebApp-Portal-8ca1310b-8ec3",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourcegroups/pluralsight/providers/Microsoft.Web/sites/carved-rock-fitnes",
+    "marketplaceItemId": "Microsoft.WebSite",
+    "provisioningHash": "customize-post-provisioning-steps-webapp-deployment"
+  },
+  "properties": {
+    "templateHash": "9401086324981666122",
+    "parameters": {
+      "subscriptionId": {
+        "type": "String",
+        "value": "c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90"
+      },
+      "name": {
+        "type": "String",
+        "value": "carved-rock-fitnes"
+      },
+      "location": {
+        "type": "String",
+        "value": "Central India"
+      },
+      "hostingPlanName": {
+        "type": "String",
+        "value": "ASP-pluralsight-998c"
+      },
+      "serverFarmResourceGroup": {
+        "type": "String",
+        "value": "pluralsight"
+      },
+      "alwaysOn": {
+        "type": "Bool",
+        "value": true
+      },
+      "sku": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "skuCode": {
+        "type": "String",
+        "value": "S1"
+      },
+      "workerSize": {
+        "type": "String",
+        "value": "0"
+      },
+      "workerSizeId": {
+        "type": "String",
+        "value": "0"
+      },
+      "numberOfWorkers": {
+        "type": "String",
+        "value": "1"
+      },
+      "currentStack": {
+        "type": "String",
+        "value": "dotnet"
+      },
+      "phpVersion": {
+        "type": "String",
+        "value": "OFF"
+      },
+      "netFrameworkVersion": {
+        "type": "String",
+        "value": "v4.0"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2021-12-23T10:49:23.616306Z",
+    "duration": "PT30.993301S",
+    "correlationId": "1644d30b-8b26-4d83-8129-04ac50f4f367",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "sites",
+            "locations": [
+              "centralindia"
+            ]
+          },
+          {
+            "resourceType": "serverfarms",
+            "locations": [
+              "centralindia"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "microsoft.insights",
+        "resourceTypes": [
+          {
+            "resourceType": "components",
+            "locations": [
+              "centralindia"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/microsoft.insights/components/carved-rock-fitnes",
+            "resourceType": "microsoft.insights/components",
+            "resourceName": "carved-rock-fitnes"
+          },
+          {
+            "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/Microsoft.Web/serverfarms/ASP-pluralsight-998c",
+            "resourceType": "Microsoft.Web/serverfarms",
+            "resourceName": "ASP-pluralsight-998c"
+          },
+          {
+            "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/microsoft.insights/components/carved-rock-fitnes",
+            "resourceType": "microsoft.insights/components",
+            "resourceName": "carved-rock-fitnes",
+            "apiVersion": "2015-05-01"
+          }
+        ],
+        "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/Microsoft.Web/sites/carved-rock-fitnes",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "carved-rock-fitnes"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/microsoft.insights/components/carved-rock-fitnes"
+      },
+      {
+        "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/Microsoft.Web/serverfarms/ASP-pluralsight-998c"
+      },
+      {
+        "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/Microsoft.Web/sites/carved-rock-fitnes"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

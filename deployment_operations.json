@@ -1,0 +1,86 @@
+[
+  {
+    "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-8ca1310b-8ec3/operations/55C4AB4C9675D451",
+    "operationId": "55C4AB4C9675D451",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-23T10:49:23.5261701Z",
+      "duration": "PT23.2549963S",
+      "trackingId": "902d4eed-3b33-4365-bb16-01716b5e4871",
+      "serviceRequestId": "fa6498b6-eaac-4072-bc00-57719eb30b51",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/Microsoft.Web/sites/carved-rock-fitnes",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "carved-rock-fitnes"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-8ca1310b-8ec3/operations/93716914A857AB8C",
+    "operationId": "93716914A857AB8C",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-23T10:49:00.2366746Z",
+      "duration": "PT6.563702S",
+      "trackingId": "5855da77-b1a3-4a98-a4dc-87368731e74b",
+      "serviceRequestId": "14e5dab0-6848-47c4-ad8b-e17708826478",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/Microsoft.Web/serverfarms/ASP-pluralsight-998c",
+        "resourceType": "Microsoft.Web/serverfarms",
+        "resourceName": "ASP-pluralsight-998c"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-8ca1310b-8ec3/operations/A86D273CF0C94BED",
+    "operationId": "A86D273CF0C94BED",
+    "properties": {
+      "provisioningOperation": "Read",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-23T10:48:59.8809947Z",
+      "duration": "PT6.2080221S",
+      "trackingId": "fe8e557c-76a7-4b24-97ad-6f8a560d2ffa",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/microsoft.insights/components/carved-rock-fitnes",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "carved-rock-fitnes",
+        "apiVersion": "2015-05-01"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-8ca1310b-8ec3/operations/0EFF83FF3881055C",
+    "operationId": "0EFF83FF3881055C",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-23T10:48:59.4969377Z",
+      "duration": "PT5.8239651S",
+      "trackingId": "171132b3-1b09-4f8f-956d-7c125a615db1",
+      "serviceRequestId": "458e24b5-dff8-4600-9490-dc3105db2887",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/microsoft.insights/components/carved-rock-fitnes",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "carved-rock-fitnes"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/c63fa61d-f3e3-4ff3-a93c-4c5a43e38e90/resourceGroups/pluralsight/providers/Microsoft.Resources/deployments/Microsoft.Web-WebApp-Portal-8ca1310b-8ec3/operations/08585613503531190558",
+    "operationId": "08585613503531190558",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-23T10:49:23.5949695Z",
+      "duration": "PT23.3237957S",
+      "trackingId": "99526603-c28f-4830-b684-bf7e7ba36322",
+      "statusCode": "OK"
+    }
+  }
+]
