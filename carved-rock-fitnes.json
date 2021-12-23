@@ -1,0 +1,108 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "carved-rock-fitnes",
+    "version": "1.0"
+  },
+  "host": "carved-rock-fitnes-apim.azure-api.net",
+  "schemes": [
+    "https"
+  ],
+  "securityDefinitions": {
+    "apiKeyHeader": {
+      "type": "apiKey",
+      "name": "Ocp-Apim-Subscription-Key",
+      "in": "header"
+    },
+    "apiKeyQuery": {
+      "type": "apiKey",
+      "name": "subscription-key",
+      "in": "query"
+    }
+  },
+  "security": [
+    {
+      "apiKeyHeader": []
+    },
+    {
+      "apiKeyQuery": []
+    }
+  ],
+  "paths": {
+    "/*": {
+      "patch": {
+        "operationId": "61c46dbb27d9ee2511df2688",
+        "summary": "carved-rock-fitnes_PATCH",
+        "responses": {
+          "200": {
+            "description": null
+          }
+        }
+      },
+      "get": {
+        "operationId": "61c46dbb9b38b8a0b7f3d266",
+        "summary": "carved-rock-fitnes_GET",
+        "responses": {
+          "200": {
+            "description": null
+          }
+        }
+      },
+      "head": {
+        "operationId": "61c46dbba59b54bd06c5258e",
+        "summary": "carved-rock-fitnes_HEAD",
+        "responses": {
+          "200": {
+            "description": null
+          }
+        }
+      },
+      "post": {
+        "operationId": "61c46dbb5fc35ef002e86b7c",
+        "summary": "carved-rock-fitnes_POST",
+        "responses": {
+          "200": {
+            "description": null
+          }
+        }
+      },
+      "trace": {
+        "operationId": "61c46dbb13a1cbafc9cdf208",
+        "summary": "carved-rock-fitnes_TRACE",
+        "responses": {
+          "200": {
+            "description": null
+          }
+        }
+      },
+      "delete": {
+        "operationId": "61c46dbb8746616fd566b7bd",
+        "summary": "carved-rock-fitnes_DELETE",
+        "responses": {
+          "200": {
+            "description": null
+          }
+        }
+      },
+      "options": {
+        "operationId": "61c46dbbe2899b93f06ce905",
+        "summary": "carved-rock-fitnes_OPTIONS",
+        "responses": {
+          "200": {
+            "description": null
+          }
+        }
+      },
+      "put": {
+        "operationId": "61c46dbbfe59085845dfb46e",
+        "summary": "carved-rock-fitnes_PUT",
+        "responses": {
+          "200": {
+            "description": null
+          }
+        }
+      }
+    }
+  },
+  "tags": []
+}
